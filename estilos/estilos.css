@@ -21,7 +21,6 @@ header {
   display: flex;
   align-items: center;
   gap: 30px;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -32,12 +31,6 @@ header {
   background-color: #eee;
 }
 
-
-.sesion{
-    display: flex;
-    justify-content: start;
-    gap: 30px;
-}
 .boton {
   display: inline-block;
   margin-top: 10px;
@@ -47,7 +40,27 @@ header {
   border-radius: 5px;
   text-decoration: none;
 }
-.estudiante{
-    display: flex;
-    justify-content: center;
+
+.Educacionsecion {
+  width: 1250px;
+  margin: auto;
+}
+
+.educacioncontenedor {
+  display: flex;
+  gap: 20px;
+
+}
+
+.educacioncenter {
+  background-color: #6096d4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  color: #080101;
+  font-size: 6;
+  font-family: cursive;
 }
