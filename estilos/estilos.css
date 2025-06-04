@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(241, 10, 80);
+  color: white;
+  padding: 40px 20px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagen {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+}
+
+
+.sesion{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+.boton {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #6a7cdf;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.estudiante{
+    display: flex;
+    justify-content: center;
+}
